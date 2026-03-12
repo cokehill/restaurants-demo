@@ -1,0 +1,833 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="The Village Restaurant & Lounge — A premier dining destination in Benin City offering exceptional cuisine, craft cocktails, and an unforgettable atmosphere." />
+  <title>The Village Restaurant &amp; Lounge | Benin City</title>
+
+  <!-- Google Fonts: Playfair Display + Lato -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Lato:wght@300;400;700&display=swap" rel="stylesheet" />
+
+  <!-- Main stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- =====================
+       NAVIGATION
+  ======================= -->
+  <nav id="navbar" aria-label="Main navigation">
+    <div class="nav-inner">
+      <a href="#home" class="nav-logo" aria-label="The Village Restaurant & Lounge – go to top">
+        The Village<span class="logo-accent"> &amp; Lounge</span>
+      </a>
+
+      <ul class="nav-links" id="nav-links" role="list">
+        <li><a href="#home"      class="nav-link">Home</a></li>
+        <li><a href="#about"     class="nav-link">About</a></li>
+        <li><a href="#menu"      class="nav-link">Menu</a></li>
+        <li><a href="#booking"   class="nav-link">Book Now</a></li>
+        <li><a href="#location"  class="nav-link">Location</a></li>
+        <li><a href="#gallery"   class="nav-link">Gallery</a></li>
+      </ul>
+
+      <!-- Hamburger button (mobile) -->
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle mobile menu" aria-expanded="false" aria-controls="nav-links">
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+      </button>
+    </div>
+  </nav>
+
+
+  <!-- =====================
+       HERO SECTION
+  ======================= -->
+  <section id="home" class="hero" aria-label="Hero">
+    <div class="hero-overlay" aria-hidden="true"></div>
+
+    <div class="hero-content">
+      <p class="hero-eyebrow">Benin City's Premier Dining Destination</p>
+      <h1 class="hero-title">The Village<br>Restaurant &amp; Lounge</h1>
+
+      <div class="hero-rating" aria-label="4.3 out of 5 stars">
+        <span class="stars" aria-hidden="true">★★★★<span class="star-half">★</span></span>
+        <span class="rating-value">4.3</span>
+      </div>
+
+      <p class="hero-subtitle">
+        Experience the perfect blend of casual elegance and trendy vibes — exceptional
+        cuisine, craft cocktails, and an unforgettable atmosphere for every occasion.
+      </p>
+
+      <div class="hero-actions">
+        <a href="#booking" class="btn btn-primary">Make a Reservation</a>
+        <a href="tel:09151820000" class="btn btn-secondary">
+          <svg class="btn-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+            aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.27h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.91a16 16 0 0 0 6.09 6.09l1.01-.95a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+          Order Takeaway
+        </a>
+      </div>
+
+      <a href="tel:09151820000" class="hero-phone">Call us: 09151820000</a>
+    </div>
+  </section>
+
+
+  <!-- =====================
+       ABOUT SECTION
+  ======================= -->
+  <section id="about" class="section section-alt" aria-labelledby="about-heading">
+    <div class="container">
+
+      <div class="section-header">
+        <h2 id="about-heading" class="section-title">About The Village</h2>
+        <div class="section-divider" aria-hidden="true"></div>
+        <p class="section-subtitle">
+          Located in the heart of Benin City, The Village Restaurant &amp; Lounge has become
+          a beloved destination for food enthusiasts and social gatherings. We pride ourselves
+          on creating a casual yet trendy atmosphere where exceptional food meets warm hospitality.
+        </p>
+      </div>
+
+      <!-- Feature cards -->
+      <div class="card-grid card-grid-4">
+
+        <article class="feature-card">
+          <div class="feature-icon" aria-hidden="true">
+            <!-- Utensils icon -->
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2"/><path d="M7 2v20"/><path d="M21 15V2v0a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3Zm0 0v7"/>
+            </svg>
+          </div>
+          <h3 class="feature-title">Table Service</h3>
+          <p class="feature-desc">Enjoy attentive service in our comfortable dining area</p>
+        </article>
+
+        <article class="feature-card">
+          <div class="feature-icon" aria-hidden="true">
+            <!-- Wine icon -->
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M8 22h8"/><path d="M7 10h10"/><path d="M12 15v7"/><path d="M12 15a5 5 0 0 0 5-5c0-2-.5-4-2-8H9c-1.5 4-2 6-2 8a5 5 0 0 0 5 5z"/>
+            </svg>
+          </div>
+          <h3 class="feature-title">Bar On Site</h3>
+          <p class="feature-desc">Extensive selection of spirits, cocktails, and craft beers</p>
+        </article>
+
+        <article class="feature-card">
+          <div class="feature-icon" aria-hidden="true">
+            <!-- Users icon -->
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+            </svg>
+          </div>
+          <h3 class="feature-title">Group &amp; Solo Dining</h3>
+          <p class="feature-desc">Perfect for intimate dinners or larger gatherings</p>
+        </article>
+
+        <article class="feature-card">
+          <div class="feature-icon" aria-hidden="true">
+            <!-- Family / baby icon -->
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M9 12h.01"/><path d="M15 12h.01"/><path d="M10 16c.5.3 1.2.5 2 .5s1.5-.2 2-.5"/><path d="M19 6.3a9 9 0 0 1 1.8 3.9 2 2 0 0 1 0 3.6 9 9 0 0 1-17.6 0 2 2 0 0 1 0-3.6A9 9 0 0 1 12 3c2 0 3.5 1.1 3.5 2.5s-.9 2.5-2 2.5c-.8 0-1.5-.4-1.5-1"/>
+            </svg>
+          </div>
+          <h3 class="feature-title">Family Friendly</h3>
+          <p class="feature-desc">Kid-friendly environment welcoming guests of all ages</p>
+        </article>
+
+      </div><!-- /card-grid -->
+
+      <!-- Our Story -->
+      <div class="story-box">
+        <h3 class="story-title">Our Story</h3>
+        <p>
+          The Village Restaurant &amp; Lounge brings together the best of contemporary dining
+          with the warmth of traditional Nigerian hospitality. Whether you're joining us
+          for a business lunch, romantic dinner, or celebratory gathering, our team is
+          dedicated to making your experience memorable.
+        </p>
+        <p>
+          Our menu features a carefully curated selection of dishes that celebrate both
+          local and international flavors. From quick bites to full-course meals, every
+          dish is prepared with attention to detail and quality ingredients.
+        </p>
+        <p>
+          With our convenient location on Murtala Muhammed Way, ample parking, and a
+          welcoming atmosphere, The Village has become the go-to spot for discerning
+          diners in Benin City and beyond.
+        </p>
+      </div>
+
+    </div>
+  </section><!-- /about -->
+
+
+  <!-- =====================
+       MENU SECTION
+  ======================= -->
+  <section id="menu" class="section" aria-labelledby="menu-heading">
+    <div class="container">
+
+      <div class="section-header">
+        <h2 id="menu-heading" class="section-title">Our Menu</h2>
+        <div class="section-divider" aria-hidden="true"></div>
+        <p class="section-subtitle">
+          From casual lunches to elegant dinners, our menu offers something for every palate
+        </p>
+      </div>
+
+      <!-- Offerings strip -->
+      <div class="card-grid card-grid-4 mb-lg">
+
+        <div class="offering-card">
+          <div class="offering-icon" aria-hidden="true">
+            <!-- Wine glass -->
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M8 22h8"/><path d="M7 10h10"/><path d="M12 15v7"/><path d="M12 15a5 5 0 0 0 5-5c0-2-.5-4-2-8H9c-1.5 4-2 6-2 8a5 5 0 0 0 5 5z"/>
+            </svg>
+          </div>
+          <h3>Premium Spirits</h3>
+          <p>Carefully selected spirits and cocktails</p>
+        </div>
+
+        <div class="offering-card">
+          <div class="offering-icon" aria-hidden="true">
+            <!-- Beer -->
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M17 11h1a3 3 0 0 1 0 6h-1"/><path d="M9 12v6"/><path d="M13 12v6"/><path d="M14 7.5c-1 0-1.44.5-3 .5s-2-.5-3-.5-1.72.5-2.5.5a2.5 2.5 0 0 1 0-5c.78 0 1.57.5 2.5.5S9.44 3 11 3s2 .5 3 .5 1.72-.5 2.5-.5a2.5 2.5 0 0 1 0 5c-.78 0-1.5-.5-2.5-.5z"/><path d="M5 7.5v10a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V7.5"/>
+            </svg>
+          </div>
+          <h3>Craft Beers</h3>
+          <p>Local and international beer selection</p>
+        </div>
+
+        <div class="offering-card">
+          <div class="offering-icon" aria-hidden="true">
+            <!-- Coffee -->
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M17 8h1a4 4 0 1 1 0 8h-1"/><path d="M3 8h14v9a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V8z"/><line x1="6" y1="2" x2="6" y2="4"/><line x1="10" y1="2" x2="10" y2="4"/><line x1="14" y1="2" x2="14" y2="4"/>
+            </svg>
+          </div>
+          <h3>Quick Bites</h3>
+          <p>Perfect appetizers and light meals</p>
+        </div>
+
+        <div class="offering-card">
+          <div class="offering-icon" aria-hidden="true">
+            <!-- Sparkles / star -->
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3z"/>
+            </svg>
+          </div>
+          <h3>Small Plates</h3>
+          <p>Shareable dishes for groups</p>
+        </div>
+
+      </div><!-- /offerings -->
+
+      <!-- Lunch + Dinner cards -->
+      <div class="menu-grid">
+
+        <div class="menu-card">
+          <h3 class="menu-card-title">Lunch Menu</h3>
+          <ul class="menu-list" aria-label="Lunch menu items">
+            <li>Signature Burgers &amp; Sandwiches</li>
+            <li>Fresh Garden Salads</li>
+            <li>Grilled Chicken Specialties</li>
+            <li>Pasta &amp; Rice Dishes</li>
+            <li>Traditional Nigerian Favorites</li>
+            <li>Quick Bites &amp; Appetizers</li>
+          </ul>
+          <p class="menu-hours">Served daily 11:00 AM – 4:00 PM</p>
+        </div>
+
+        <div class="menu-card">
+          <h3 class="menu-card-title">Dinner Menu</h3>
+          <ul class="menu-list" aria-label="Dinner menu items">
+            <li>Premium Steaks &amp; Grills</li>
+            <li>Fresh Seafood Selection</li>
+            <li>International Cuisine</li>
+            <li>Nigerian Delicacies</li>
+            <li>Vegetarian Options</li>
+            <li>Signature House Specials</li>
+          </ul>
+          <p class="menu-hours">Served daily 4:00 PM – 11:00 PM</p>
+        </div>
+
+      </div><!-- /menu-grid -->
+
+      <p class="menu-note">
+        All dishes can be customised to accommodate dietary preferences and allergies.
+        <strong>Ask your server about our daily specials!</strong>
+      </p>
+
+    </div>
+  </section><!-- /menu -->
+
+
+  <!-- =====================
+       HIGHLIGHTS SECTION
+  ======================= -->
+  <section id="highlights" class="section section-alt" aria-labelledby="highlights-heading">
+    <div class="container">
+
+      <div class="section-header">
+        <h2 id="highlights-heading" class="section-title">Why Choose The Village</h2>
+        <div class="section-divider" aria-hidden="true"></div>
+        <p class="section-subtitle">Experience the perfect combination of great food, drinks, and atmosphere</p>
+      </div>
+
+      <div class="card-grid card-grid-3 mb-lg">
+
+        <article class="highlight-card">
+          <div class="highlight-icon" aria-hidden="true">
+            <!-- Beer -->
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M17 11h1a3 3 0 0 1 0 6h-1"/><path d="M9 12v6"/><path d="M13 12v6"/><path d="M14 7.5c-1 0-1.44.5-3 .5s-2-.5-3-.5-1.72.5-2.5.5a2.5 2.5 0 0 1 0-5c.78 0 1.57.5 2.5.5S9.44 3 11 3s2 .5 3 .5 1.72-.5 2.5-.5a2.5 2.5 0 0 1 0 5c-.78 0-1.5-.5-2.5-.5z"/><path d="M5 7.5v10a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V7.5"/>
+            </svg>
+          </div>
+          <h3>Great Beer Selection</h3>
+          <p>Wide variety of local and imported beers</p>
+        </article>
+
+        <article class="highlight-card">
+          <div class="highlight-icon" aria-hidden="true">
+            <!-- Parking -->
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"/><path d="M9 17V7h4a3 3 0 0 1 0 6H9"/>
+            </svg>
+          </div>
+          <h3>Free Parking</h3>
+          <p>Street and lot parking available</p>
+        </article>
+
+        <article class="highlight-card">
+          <div class="highlight-icon" aria-hidden="true">
+            <!-- Clean / checkmark -->
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 22C6.5 22 2 17.5 2 12S6.5 2 12 2s10 4.5 10 10-4.5 10-10 10z"/><path d="m9 12 2 2 4-4"/>
+            </svg>
+          </div>
+          <h3>Clean Facilities</h3>
+          <p>Well-maintained restrooms and dining areas</p>
+        </article>
+
+        <article class="highlight-card">
+          <div class="highlight-icon" aria-hidden="true">
+            <!-- Calendar -->
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect width="18" height="18" x="3" y="4" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/>
+            </svg>
+          </div>
+          <h3>Reservations Welcome</h3>
+          <p>Book your table in advance</p>
+        </article>
+
+        <article class="highlight-card">
+          <div class="highlight-icon" aria-hidden="true">
+            <!-- Wifi / trendy -->
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M5 12.55a11 11 0 0 1 14.08 0"/><path d="M1.42 9a16 16 0 0 1 21.16 0"/><path d="M8.53 16.11a6 6 0 0 1 6.95 0"/><circle cx="12" cy="20" r="1" fill="currentColor"/>
+            </svg>
+          </div>
+          <h3>Modern Atmosphere</h3>
+          <p>Casual yet trendy vibe</p>
+        </article>
+
+        <article class="highlight-card">
+          <div class="highlight-icon" aria-hidden="true">
+            <!-- Credit card -->
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect width="20" height="14" x="2" y="5" rx="2"/><line x1="2" y1="10" x2="22" y2="10"/>
+            </svg>
+          </div>
+          <h3>Flexible Payments</h3>
+          <p>Credit, debit, and mobile payments</p>
+        </article>
+
+      </div>
+
+      <!-- Payment methods -->
+      <div class="payment-box">
+        <h3 class="payment-title">Payment Methods Accepted</h3>
+        <div class="payment-badges">
+          <span class="badge">Credit Cards</span>
+          <span class="badge">Debit Cards</span>
+          <span class="badge">NFC Mobile Payments</span>
+          <span class="badge">Cash</span>
+        </div>
+        <p class="payment-note">We make it easy and convenient to enjoy your meal with multiple payment options</p>
+      </div>
+
+    </div>
+  </section><!-- /highlights -->
+
+
+  <!-- =====================
+       BOOKING SECTION
+  ======================= -->
+  <section id="booking" class="section" aria-labelledby="booking-heading">
+    <div class="container">
+
+      <div class="section-header">
+        <h2 id="booking-heading" class="section-title">Book Your Table</h2>
+        <div class="section-divider" aria-hidden="true"></div>
+        <p class="section-subtitle">Reserve your spot at The Village and let us make your dining experience exceptional</p>
+      </div>
+
+      <div class="booking-grid">
+
+        <!-- Reservation form -->
+        <div class="booking-form-box">
+          <h3 class="box-title">Make a Reservation</h3>
+
+          <form id="reservation-form" novalidate>
+
+            <div class="form-group">
+              <label for="name">Full Name <span class="required" aria-hidden="true">*</span></label>
+              <input type="text" id="name" name="name" required placeholder="Your name" autocomplete="name" />
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="email">Email <span class="required" aria-hidden="true">*</span></label>
+                <input type="email" id="email" name="email" required placeholder="your@email.com" autocomplete="email" />
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone <span class="required" aria-hidden="true">*</span></label>
+                <input type="tel" id="phone" name="phone" required placeholder="0915..." autocomplete="tel" />
+              </div>
+            </div>
+
+            <div class="form-row form-row-3">
+              <div class="form-group">
+                <label for="date">Date <span class="required" aria-hidden="true">*</span></label>
+                <input type="date" id="date" name="date" required />
+              </div>
+              <div class="form-group">
+                <label for="time">Time <span class="required" aria-hidden="true">*</span></label>
+                <input type="time" id="time" name="time" required />
+              </div>
+              <div class="form-group">
+                <label for="guests">Guests <span class="required" aria-hidden="true">*</span></label>
+                <select id="guests" name="guests" required>
+                  <!-- Filled dynamically by script.js -->
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Special Requests</label>
+              <textarea id="message" name="message" rows="4"
+                placeholder="Any dietary restrictions or special occasions?"></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-full">
+              Confirm Reservation via WhatsApp
+            </button>
+
+          </form>
+        </div><!-- /form-box -->
+
+        <!-- Contact info -->
+        <div class="booking-info">
+
+          <div class="info-box">
+            <h3 class="box-title">Contact Information</h3>
+
+            <ul class="contact-list">
+              <li class="contact-item">
+                <svg class="contact-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.27h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.91a16 16 0 0 0 6.09 6.09l1.01-.95a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                </svg>
+                <div>
+                  <strong>Phone</strong>
+                  <a href="tel:09151820000">09151820000</a>
+                </div>
+              </li>
+
+              <li class="contact-item">
+                <svg class="contact-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>
+                </svg>
+                <div>
+                  <strong>Email</strong>
+                  <a href="mailto:info@thevillagerestaurant.ng">info@thevillagerestaurant.ng</a>
+                </div>
+              </li>
+
+              <li class="contact-item">
+                <svg class="contact-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/>
+                </svg>
+                <div>
+                  <strong>Hours of Operation</strong>
+                  <p>Mon – Thu: 11:00 AM – 11:00 PM</p>
+                  <p>Fri – Sat: 11:00 AM – 12:00 AM</p>
+                  <p>Sunday: 12:00 PM – 10:00 PM</p>
+                </div>
+              </li>
+
+              <li class="contact-item">
+                <svg class="contact-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                </svg>
+                <div>
+                  <strong>Capacity</strong>
+                  <p>Perfect for individuals, couples, families, and groups</p>
+                </div>
+              </li>
+
+              <li class="contact-item">
+                <svg class="contact-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect width="18" height="18" x="3" y="4" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/>
+                </svg>
+                <div>
+                  <strong>Reservations</strong>
+                  <p>Recommended for groups of 6 or more, especially on weekends</p>
+                </div>
+              </li>
+            </ul>
+          </div><!-- /info-box -->
+
+          <div class="walkin-box">
+            <h4>Walk-ins Welcome!</h4>
+            <p>While reservations are recommended, we also welcome walk-in guests.
+              Our team will do their best to accommodate you during peak hours.</p>
+          </div>
+
+        </div><!-- /booking-info -->
+      </div><!-- /booking-grid -->
+
+    </div>
+  </section><!-- /booking -->
+
+
+  <!-- =====================
+       LOCATION SECTION
+  ======================= -->
+  <section id="location" class="section section-alt" aria-labelledby="location-heading">
+    <div class="container">
+
+      <div class="section-header">
+        <h2 id="location-heading" class="section-title">Visit Us</h2>
+        <div class="section-divider" aria-hidden="true"></div>
+        <p class="section-subtitle">Conveniently located in the heart of Benin City with easy access and ample parking</p>
+      </div>
+
+      <div class="location-grid">
+
+        <div class="location-details">
+
+          <div class="address-box">
+            <div class="address-icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/>
+              </svg>
+            </div>
+            <div>
+              <h3>Address</h3>
+              <address>
+                20 Murtala Muhammed Way<br>
+                Avbiama, Benin City<br>
+                300104, Edo State<br>
+                Nigeria
+              </address>
+              <p class="plus-code"><strong>Plus Code:</strong> 8JWV+F3 — use this for precise Google Maps navigation</p>
+            </div>
+          </div>
+
+          <div class="parking-box">
+            <div class="parking-icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"/><path d="M9 17V7h4a3 3 0 0 1 0 6H9"/>
+              </svg>
+            </div>
+            <div>
+              <h3>Parking Information</h3>
+              <ul>
+                <li>Free parking lot on-site</li>
+                <li>Street parking available</li>
+                <li>Well-lit and secure parking area</li>
+              </ul>
+            </div>
+          </div>
+
+          <a href="https://www.google.com/maps/search/?api=1&query=8JWV%2BF3+Benin+City,+Edo,+Nigeria"
+            target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-full">
+            <svg class="btn-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              aria-hidden="true"><polygon points="3 11 22 2 13 21 11 13 3 11"/>
+            </svg>
+            Open in Google Maps
+          </a>
+
+          <!-- Quick info tiles -->
+          <div class="location-tiles">
+            <div class="tile">
+              <h4>Easy Access</h4>
+              <p>Located on a major road with excellent visibility</p>
+            </div>
+            <div class="tile">
+              <h4>Public Transport</h4>
+              <p>Accessible by taxi and public transportation</p>
+            </div>
+            <div class="tile">
+              <h4>Safe Area</h4>
+              <p>Well-lit surroundings with security presence</p>
+            </div>
+          </div>
+
+        </div><!-- /location-details -->
+
+        <!-- Embedded map -->
+        <div class="map-wrapper">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.0447073848445!2d5.643!3d6.347!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNsKwMjAnNDkuMiJOIDXCsDM4JzM0LjgiRQ!5e0!3m2!1sen!2sng!4v1234567890"
+            title="The Village Restaurant &amp; Lounge Location"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            allowfullscreen></iframe>
+        </div>
+
+      </div><!-- /location-grid -->
+    </div>
+  </section><!-- /location -->
+
+
+  <!-- =====================
+       GALLERY SECTION
+  ======================= -->
+  <section id="gallery" class="section" aria-labelledby="gallery-heading">
+    <div class="container">
+
+      <div class="section-header">
+        <h2 id="gallery-heading" class="section-title">Gallery</h2>
+        <div class="section-divider" aria-hidden="true"></div>
+        <p class="section-subtitle">Take a visual tour of our restaurant, bar, and culinary creations</p>
+      </div>
+
+      <div class="gallery-grid">
+
+        <figure class="gallery-item" data-category="Interior">
+          <img src="https://images.pexels.com/photos/1307698/pexels-photo-1307698.jpeg?auto=compress&cs=tinysrgb&w=800"
+            alt="The Village Restaurant Interior" loading="lazy" />
+          <figcaption>
+            <span class="gallery-badge">Interior</span>
+            <p>The Village Restaurant Interior</p>
+          </figcaption>
+        </figure>
+
+        <figure class="gallery-item" data-category="Bar">
+          <img src="https://images.pexels.com/photos/1267320/pexels-photo-1267320.jpeg?auto=compress&cs=tinysrgb&w=800"
+            alt="Bar Area with Premium Spirits" loading="lazy" />
+          <figcaption>
+            <span class="gallery-badge">Bar</span>
+            <p>Bar Area with Premium Spirits</p>
+          </figcaption>
+        </figure>
+
+        <figure class="gallery-item" data-category="Food">
+          <img src="https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg?auto=compress&cs=tinysrgb&w=800"
+            alt="Delicious Food Plating" loading="lazy" />
+          <figcaption>
+            <span class="gallery-badge">Food</span>
+            <p>Delicious Food Plating</p>
+          </figcaption>
+        </figure>
+
+        <figure class="gallery-item" data-category="Drinks">
+          <img src="https://images.pexels.com/photos/941861/pexels-photo-941861.jpeg?auto=compress&cs=tinysrgb&w=800"
+            alt="Craft Cocktails" loading="lazy" />
+          <figcaption>
+            <span class="gallery-badge">Drinks</span>
+            <p>Craft Cocktails</p>
+          </figcaption>
+        </figure>
+
+        <figure class="gallery-item" data-category="Interior">
+          <img src="https://images.pexels.com/photos/262978/pexels-photo-262978.jpeg?auto=compress&cs=tinysrgb&w=800"
+            alt="Modern Dining Space" loading="lazy" />
+          <figcaption>
+            <span class="gallery-badge">Interior</span>
+            <p>Modern Dining Space</p>
+          </figcaption>
+        </figure>
+
+        <figure class="gallery-item" data-category="Food">
+          <img src="https://images.pexels.com/photos/1633525/pexels-photo-1633525.jpeg?auto=compress&cs=tinysrgb&w=800"
+            alt="Gourmet Dishes" loading="lazy" />
+          <figcaption>
+            <span class="gallery-badge">Food</span>
+            <p>Gourmet Dishes</p>
+          </figcaption>
+        </figure>
+
+        <figure class="gallery-item" data-category="Drinks">
+          <img src="https://images.pexels.com/photos/1089930/pexels-photo-1089930.jpeg?auto=compress&cs=tinysrgb&w=800"
+            alt="Premium Beverages" loading="lazy" />
+          <figcaption>
+            <span class="gallery-badge">Drinks</span>
+            <p>Premium Beverages</p>
+          </figcaption>
+        </figure>
+
+        <figure class="gallery-item" data-category="Bar">
+          <img src="https://images.pexels.com/photos/696218/pexels-photo-696218.jpeg?auto=compress&cs=tinysrgb&w=800"
+            alt="Elegant Bar Setup" loading="lazy" />
+          <figcaption>
+            <span class="gallery-badge">Bar</span>
+            <p>Elegant Bar Setup</p>
+          </figcaption>
+        </figure>
+
+      </div><!-- /gallery-grid -->
+
+      <div class="gallery-social">
+        <p>Follow us on social media for more photos and updates</p>
+        <div class="gallery-social-links">
+          <a href="#" class="btn btn-primary">Instagram</a>
+          <a href="#" class="btn btn-primary">Facebook</a>
+        </div>
+      </div>
+
+    </div>
+  </section><!-- /gallery -->
+
+
+  <!-- =====================
+       FOOTER
+  ======================= -->
+  <footer id="footer" aria-label="Site footer">
+    <div class="footer-inner">
+
+      <div class="footer-grid">
+
+        <!-- Brand column -->
+        <div class="footer-col">
+          <h3 class="footer-brand">The Village Restaurant &amp; Lounge</h3>
+          <p class="footer-tagline">
+            A premier dining destination in Benin City offering exceptional cuisine
+            and an unforgettable atmosphere.
+          </p>
+          <div class="footer-rating" aria-label="4.3 out of 5 stars">
+            <span class="footer-stars" aria-hidden="true">★★★★☆</span>
+            <span class="footer-rating-value">4.3</span>
+          </div>
+        </div>
+
+        <!-- Contact column -->
+        <div class="footer-col">
+          <h4 class="footer-col-title">Contact Us</h4>
+          <ul class="footer-list">
+            <li>
+              <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.27h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.91a16 16 0 0 0 6.09 6.09l1.01-.95a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"></path>
+              </svg>
+              <a href="tel:09151820000">09151820000</a>
+            </li>
+            <li>
+              <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>
+              </svg>
+              <a href="mailto:info@thevillagerestaurant.ng">info@thevillagerestaurant.ng</a>
+            </li>
+            <li>
+              <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/>
+              </svg>
+              <span>20 Murtala Muhammed Way, Avbiama, Benin City, Edo State, Nigeria</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Hours column -->
+        <div class="footer-col">
+          <h4 class="footer-col-title">Hours of Operation</h4>
+          <ul class="footer-hours">
+            <li><span>Mon – Thu</span><span>11:00 AM – 11:00 PM</span></li>
+            <li><span>Fri – Sat</span><span>11:00 AM – 12:00 AM</span></li>
+            <li><span>Sunday</span><span>12:00 PM – 10:00 PM</span></li>
+          </ul>
+        </div>
+
+        <!-- Services column -->
+        <div class="footer-col">
+          <h4 class="footer-col-title">Services</h4>
+          <ul class="footer-services">
+            <li>Dine-in Service</li>
+            <li>Takeaway Orders</li>
+            <li>Table Reservations</li>
+            <li>Private Events</li>
+            <li>Catering Services</li>
+          </ul>
+        </div>
+
+      </div><!-- /footer-grid -->
+
+      <div class="footer-bottom">
+        <p class="footer-copy">&copy; <span id="footer-year"></span> The Village Restaurant &amp; Lounge. All rights reserved.</p>
+        <div class="footer-socials" aria-label="Social media links">
+          <a href="#" aria-label="Facebook" class="social-link">
+            <!-- Facebook icon -->
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              aria-hidden="true"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+            </svg>
+          </a>
+          <a href="#" aria-label="Instagram" class="social-link">
+            <!-- Instagram icon -->
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              aria-hidden="true"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+            </svg>
+          </a>
+          <a href="#" aria-label="Twitter / X" class="social-link">
+            <!-- Twitter / X icon -->
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              aria-hidden="true"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+
+  <!-- Main script -->
+  <script src="script.js"></script>
+</body>
+</html>
